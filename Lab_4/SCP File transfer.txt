@@ -1,0 +1,45 @@
+SCP
+
+Both machines
+
+vagrant
+password-vagrant
+
+ifconfig
+get the inet address of both machines that must be different.
+
+ping 10.0.2.5
+
+ls - list all the files
+cat - show the content inside the file
+scp - it will help us to copy files from 1 VM to another VM
+cd
+mkdir
+touch - makes new file with filename you will give
+nano - editor to write in dir
+
+
+VM 1 cmd
+
+1. ifconfig
+2. ping 10.0.2.5
+3. ls
+4. touch transfer.txt
+5. ls
+6. nano transfer.txt
+7. cat transfer.txt
+8. scp transfer.txt vagrant@10.0.2.5:/home/vagrant
+9. history
+
+----------------------------------------
+
+FTP 
+
+Server Terminal
+   69 javac Server.java
+   70  java Server
+
+
+Client Terminal
+   66  javac Client.java
+   67  java Client
